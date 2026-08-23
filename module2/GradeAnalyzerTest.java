@@ -41,4 +41,44 @@ public class GradeAnalyzerTest {
         ArrayList<Integer> scores = new ArrayList<>(Arrays.asList(76, 20, 30, 84, 100, 90, 80, 70, 60, 50)); 
         assertEquals(66.0, GradeAnalyzer.calculateAverage(scores));
     }
+
+    @Test 
+    void getLetterGrade_returnsB_forScoreOf89() {
+        assertEquals("B", GradeAnalyzer.getLetterGrade(89)); 
+    } 
+ 
+    @Test 
+    void getLetterGrade_returnsA_forScoreOf90() { 
+        assertEquals("A", GradeAnalyzer.getLetterGrade(90)); 
+    } 
+        
+    @Test 
+    void getLetterGrade_returnsC_forScoreOf79() {
+        assertEquals("C", GradeAnalyzer.getLetterGrade(79)); 
+    } 
+        
+    @Test 
+    void getLetterGrade_returnsB_forScoreOf80() {
+        assertEquals("B", GradeAnalyzer.getLetterGrade(80)); 
+    }
+
+       @Test 
+    void getLetterGrade_returnsD_forScoreOf69() {
+        assertEquals("D", GradeAnalyzer.getLetterGrade(69)); 
+    } 
+ 
+    @Test 
+    void getLetterGrade_returnsC_forScoreOf70() { 
+        assertEquals("C", GradeAnalyzer.getLetterGrade(70)); 
+    } 
+        
+    @Test 
+    void getLetterGrade_returnsF_forScoreOf59() {
+        assertEquals("F", GradeAnalyzer.getLetterGrade(59)); 
+    } 
+        
+    @Test 
+    void getLetterGrade_returnsD_forScoreOf60() {
+        assertEquals("D", GradeAnalyzer.getLetterGrade(60)); 
+    } 
 }
