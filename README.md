@@ -6,8 +6,9 @@ Online AI Programs CS Foundations Bootcamp.
 ## Structure
 - module1/ : Development environment and first Java programs
 - module2/ : Programming fundamentals (variables, control flow, methods, files)
-- module3/ : Data structures and object-oriented basics (ArrayList, HashMap, HashSet, Stack, OOP,)
+- module3/ : Data structures and object-oriented basics (ArrayList, HashMap, HashSet, Stack, OOP)
 - module4/ : Version control with Git and GitHub
+- module6/ : A Look at Systems-Level Programming
  
 ## Programs
 Each module folder contains the Java source files from that module’s activity.
